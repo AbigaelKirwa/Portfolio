@@ -33,14 +33,14 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor=pointer text-2xl dark:text-white'/>
               </li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='#'>Resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://drive.google.com/file/d/15iekOi6ltPeP_ppPq0LoV6_tFo0H6Hqo/view?usp=sharing'>Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Abigael Kirwa</h2>
             <h3 className='text-2xl py-2 md:text-3xl text-white'>Developer and Designer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-teal-200'> I create beautiful Designs and realize them through development.
-              I use HTML, CSS, and Javascript. I also use frameworks, such as Tailwind CSS and ReactJS.
+              I use HTML, CSS, and Javascript. I also use frameworks, such as Tailwind CSS and NextJS.
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
@@ -54,7 +54,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
+            <h3 className="mt-20 text-3xl py-1 dark:text-white">Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-teal-200'>
               I am available for short term projects requiring <span className='text-teal-500 dark:text-white'>design </span> 
               or <span className='text-teal-500 dark:text-white'> development</span>. I am also interested in development
