@@ -3,6 +3,7 @@ import{BsFillMoonStarsFill} from 'react-icons/bs';
 import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
 import Image from "next/image";
 import deved from '../public/dev-ed-wave.png';
+import portfolio from '../public/portfolio.png';
 import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
@@ -47,8 +48,8 @@ export default function Home() {
             <AiFillLinkedin />
             <AiFillYoutube />
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <Image src={deved} layout="fill" objectFit="cover"/>
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 to-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
+            <Image src={portfolio} layout="fill" objectFit="cover"/>
           </div>
         </section>
         <section>
