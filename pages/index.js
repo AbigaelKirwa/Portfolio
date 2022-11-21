@@ -81,22 +81,22 @@ export default function Home() {
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
             <div className='flex flex-col justify-center items-center' width="100%"><Image src={code}  width={100} height={100}/></div>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
-              <p className='py-2'>Creating beautiful designs for your website</p>
-              <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Canva</p>
-              <p className='text-gray-800 py-1'>Adobe XD</p>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Front End</h3>
+              <p className='py-2'>Transforming design into functional code</p>
+              <h4 className='py-4 text-teal-600'>Dev tools that I use</h4>
+              <p className='text-gray-800 py-1'>NextJs</p>
+              <p className='text-gray-800 py-1'>TailwindCSS</p>
+              <p className='text-gray-800 py-1'>Php</p>
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
             <div className='flex flex-col justify-center items-center' width={'100%'}><Image src={consulting}  width={100} height={100}/></div>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
-              <p className='py-2'>Creating beautiful designs for your website</p>
-              <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Canva</p>
-              <p className='text-gray-800 py-1'>Adobe XD</p>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Back End</h3>
+              <p className='py-2'>Ensuring website is dynamic</p>
+              <h4 className='py-4 text-teal-600'>Dev tools that I use</h4>
+              <p className='text-gray-800 py-1'>Php</p>
+              <p className='text-gray-800 py-1'>MySQL</p>
+              <p className='text-gray-800 py-1'>SQL workbench</p>
             </div>
 
           </div>
