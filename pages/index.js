@@ -107,7 +107,7 @@ export default function Home() {
           <p className='text-md py-2 leading-8 text-gray-800 dark:text-teal-200'>
             I am competent in <span className='text-teal-500 dark:text-white'> HTML, CSS, JS, PhP, Java</span> and
             <span className='text-teal-500 dark:text-white'> mySQL. </span>  
-            I can also use frameworks like<span className='text-teal-500 dark:text-white'> ReactJS </span>and <span className='text-teal-500 dark:text-white'>Tailwindcss</span>.
+            I can also use frameworks like<span className='text-teal-500 dark:text-white'> NextJS </span>and <span className='text-teal-500 dark:text-white'>Tailwindcss</span>.
           </p>
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'> 
