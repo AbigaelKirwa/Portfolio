@@ -92,7 +92,7 @@ export default function Home() {
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
             <div className='flex flex-col justify-center items-center' width={'100%'}><Image src={consulting}  width={100} height={100}/></div>
               <h3 className='text-lg font-medium pt-8 pb-2'>Back End</h3>
-              <p className='py-2'>Working with database to make website dynamic</p>
+              <p className='py-2'>Working with databases to store data</p>
               <h4 className='py-4 text-teal-600'>Dev tools that I use</h4>
               <p className='text-gray-800 py-1'>Php</p>
               <p className='text-gray-800 py-1'>MySQL</p>
