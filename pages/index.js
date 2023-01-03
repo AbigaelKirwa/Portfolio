@@ -47,13 +47,13 @@ export default function Home() {
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Abigael Kirwa</h2>
             <h3 className='text-2xl py-2 md:text-3xl text-white'>Developer and Designer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-teal-200'> I create beautiful Designs and realize them through development.
-              I use HTML, CSS, and Javascript. I also use frameworks, such as Tailwind CSS and NextJS.
+              I use HTML, CSS, and Javascript. I also use frameworks, such as Tailwind CSS, NextJS, and Django (Python).
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube />
+            <a href = "https://twitter.com/KirwaAbigael"><AiFillTwitterCircle/><a/>
+            <a href = "https://www.linkedin.com/in/abigael-kirwa-40647219b/"><AiFillLinkedin /><a/>
+            <a href = "https://www.youtube.com/@abigaelkirwa"><AiFillYoutube /><a/>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 to-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={portfolio} layout="fill" objectFit="cover"/>
@@ -86,7 +86,7 @@ export default function Home() {
               <h4 className='py-4 text-teal-600'>Dev tools that I use</h4>
               <p className='text-gray-800 py-1'>NextJs</p>
               <p className='text-gray-800 py-1'>TailwindCSS</p>
-              <p className='text-gray-800 py-1'>Php</p>
+              <p className='text-gray-800 py-1'>Django, Php</p>
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
