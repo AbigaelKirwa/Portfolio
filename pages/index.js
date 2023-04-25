@@ -57,7 +57,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className='grid grid-cols-3 gap-7 max-[800px]:grid-cols-2 max-[800]:gap-2  max-md:grid-cols-2 max-md:gap-5 max-sm:grid-cols-1'>
+          <div className='grid grid-cols-3 gap-7 max-lg:grid-cols-2 max-lg:gap-10  max-md:grid-cols-2 max-md:gap-5 max-sm:grid-cols-1'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
               <div className='flex flex-col justify-center items-center' width="100%"><Image src={design}  width={100} height={100} /></div>
               <h3 className='text-lg font-medium pt-8 pb-2 font-bold text-cyan-800'>Beautiful Designs</h3>
