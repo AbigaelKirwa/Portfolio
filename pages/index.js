@@ -78,7 +78,7 @@ export default function Home() {
               <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
               <div className='grid grid-cols-2 gap-2'>
                 <p className='text-gray-800 py-1'>ReactJs</p>
-                <p className='text-gray-800 py-1'>Tailwind CSS</p>
+                <p className='text-gray-800 py-1'>PHP</p>
                 <p className='text-gray-800 py-1'>Django</p>
                 <p className='text-gray-800 py-1'>NextJs</p>
               </div>
@@ -102,10 +102,8 @@ export default function Home() {
          
         <div>
           <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
-          <p className='text-md py-2 leading-8 text-gray-800 dark:text-teal-200'>
-            I am competent in <span className='text-teal-500 dark:text-white'> HTML, CSS, JS, PhP, Java</span> and
-            <span className='text-teal-500 dark:text-white'> mySQL. </span>  
-            I can also use frameworks like<span className='text-teal-500 dark:text-white'> ReactJS </span>and <span className='text-teal-500 dark:text-white'>Tailwindcss</span>.
+          <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
+            Below is a list of websites I have designed, developed, and deployed. Click to view full page.
           </p>
         </div>
         <div className='grid grid-cols-2 gap-10 py-10 max-md:grid-cols-1'> 
