@@ -2,28 +2,17 @@ import Head from 'next/head';
 import{BsFillMoonStarsFill} from 'react-icons/bs';
 import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
 import Image from "next/image";
-import deved from '../public/dev-ed-wave.png';
 import portfolio from '../public/portfolio.png';
 import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
-import web1 from '../public/web1.png'
-import web2 from '../public/web2.png'
-import web3 from '../public/web3.png'
-import web4 from '../public/web4.png'
-import web5 from '../public/web5.png'
-import web6 from '../public/web6.png'
 
-import ui1 from '../public/ui1.png'
-import ui2 from '../public/ui2.png'
-import ui3 from '../public/ui3.png'
-import ui4 from '../public/ui4.png'
-import ui5 from '../public/ui5.png'
-import ui6 from '../public/ui6.png'
+import ui1 from '../public/kirche.png'
+import ui4 from '../public/computerco.png'
 import {useState} from 'react';
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <div className={darkMode ? 'dark' : ''}>
       <Head>
@@ -32,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-10 md:px-20, lg:px-40 dark:bg-gray-900">
+      <main className="bg-white px-10 md:px-20, lg:px-20 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className='text-xl font-burtons dark:text-white'>developed by aby</h1>
@@ -40,20 +29,19 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor=pointer text-2xl dark:text-white'/>
               </li>
-              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://drive.google.com/file/d/15iekOi6ltPeP_ppPq0LoV6_tFo0H6Hqo/view?usp=sharing'>Resume</a></li>
+              <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href='https://drive.google.com/file/d/15iekOi6ltPeP_ppPq0LoV6_tFo0H6Hqo/view?usp=sharing' target="_blank">Resume</a></li>
             </ul>
           </nav>
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Abigael Kirwa</h2>
             <h3 className='text-2xl py-2 md:text-3xl text-white'>Developer and Designer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-teal-200'> I create beautiful Designs and realize them through development.
-              I use HTML, CSS, and Javascript. I also use frameworks, such as Tailwind CSS and NextJS.
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-teal-200'> I am a computer science student soon graduating in 2024. I enjoy creating designs and developing them. I am currently a MERN (MongoDB, ExpressJs, ReactJs, NodeJs) stack developer.
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube />
+            <a href="https://twitter.com/KirwaAbigael" target="_blank"><AiFillTwitterCircle /></a>
+            <a href="https://www.linkedin.com/in/abigael-kirwa-40647219b/" target="_blank"><AiFillLinkedin /></a>
+            <a href="https://www.youtube.com/channel/UCmnRQ3OAWO-CsJBaILn1d7w" target="_blank"><AiFillYoutube /></a>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 to-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={portfolio} layout="fill" objectFit="cover"/>
@@ -63,40 +51,50 @@ export default function Home() {
           <div>
             <h3 className="mt-20 text-3xl py-1 dark:text-white">Services I offer</h3>
             <p className='text-md py-2 leading-8 text-gray-800 dark:text-teal-200'>
-              I am available for short term projects requiring <span className='text-teal-500 dark:text-white'>design </span> 
+              I am available for both short and long term projects requiring <span className='text-teal-500 dark:text-white'>design </span> 
               or <span className='text-teal-500 dark:text-white'> development</span>. I am also interested in development
-              <span className='text-teal-500 dark:text-white'> internship</span> opportunities for 2023 Jan-March.
+              <span className='text-teal-500 dark:text-white'> internship</span> opportunities. Please do reach out to me through my email <span className='text-teal-500 dark:text-white'><a href="mailto:">abigael.kirwa@strathmore.edu</a></span> if interested.
             </p>
           </div>
-          <div className='lg:flex gap-10'>
+          
+          <div className='grid grid-cols-3 gap-7 max-[800px]:grid-cols-2 max-[800]:gap-2  max-md:grid-cols-2 max-md:gap-5 max-sm:grid-cols-1'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
               <div className='flex flex-col justify-center items-center' width="100%"><Image src={design}  width={100} height={100} /></div>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
+              <h3 className='text-lg font-medium pt-8 pb-2 font-bold text-cyan-800'>Beautiful Designs</h3>
               <p className='py-2'>Creating beautiful designs for your website</p>
               <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Canva</p>
-              <p className='text-gray-800 py-1'>Adobe XD</p>
+              <div className='grid grid-cols-2 gap-2'>
+                <p className='text-gray-800 py-1'>Figma</p>
+                <p className='text-gray-800 py-1'>Canva</p>
+                <p className='text-gray-800 py-1'>Adobe XD</p>
+                <p className='text-gray-800 py-1'>Flutter Flow</p>
+              </div>
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
             <div className='flex flex-col justify-center items-center' width="100%"><Image src={code}  width={100} height={100}/></div>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
-              <p className='py-2'>Creating beautiful designs for your website</p>
+              <h3 className='text-lg font-medium pt-8 pb-2 font-bold text-cyan-800'>Front End</h3>
+              <p className='py-2'>Transforming design into functional code</p>
               <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Canva</p>
-              <p className='text-gray-800 py-1'>Adobe XD</p>
+              <div className='grid grid-cols-2 gap-2'>
+                <p className='text-gray-800 py-1'>ReactJs</p>
+                <p className='text-gray-800 py-1'>Tailwind CSS</p>
+                <p className='text-gray-800 py-1'>Django</p>
+                <p className='text-gray-800 py-1'>NextJs</p>
+              </div>
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
             <div className='flex flex-col justify-center items-center' width={'100%'}><Image src={consulting}  width={100} height={100}/></div>
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
-              <p className='py-2'>Creating beautiful designs for your website</p>
+              <h3 className='text-lg font-medium pt-8 pb-2 font-bold text-cyan-800'>Back End</h3>
+              <p className='py-2'>Working with databases and API's to handle data</p>
               <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
-              <p className='text-gray-800 py-1'>Figma</p>
-              <p className='text-gray-800 py-1'>Canva</p>
-              <p className='text-gray-800 py-1'>Adobe XD</p>
+              <div className='grid grid-cols-2 gap-2'>
+                <p className='text-gray-800 py-1'>MongoDB</p>
+                <p className='text-gray-800 py-1'>Postman API</p>
+                <p className='text-gray-800 py-1'>Insomnia API</p>
+                <p className='text-gray-800 py-1'>mySQL</p>
+              </div>
             </div>
 
           </div>
@@ -110,18 +108,12 @@ export default function Home() {
             I can also use frameworks like<span className='text-teal-500 dark:text-white'> ReactJS </span>and <span className='text-teal-500 dark:text-white'>Tailwindcss</span>.
           </p>
         </div>
-        <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'> 
-          <div className='basis-1/3 flex-1'>
-            <Image src={ui1} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive"/>
+        <div className='grid grid-cols-2 gap-10 py-10 max-md:grid-cols-1'> 
+          <div>
+            <a href="https://kirche.netlify.app/" target="_blank"><Image src={ui1} className="rounded-lg object-fill h-80"/></a>
           </div>
-          <div className='basis-1/3 flex-1'>
-            <Image src={ui4} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
-          </div>
-          <div className='basis-1/3 flex-1'>
-            <Image src={ui3} className="rounded-lg object-cover" width={'100%'} height={'100%'} layout="responsive"/>
-          </div>
-          <div className='basis-1/3 flex-1' height={'250px'}>
-            <Image src={ui6} className="rounded-lg object-cover" width={'100%'} height={'200%'} layout="responsive"/>
+          <div>
+            <a href="https://computerco.netlify.app/" target="_blank"><Image src={ui4} className="rounded-lg object-cover h-80"/></a>
           </div>
         </div>
         
