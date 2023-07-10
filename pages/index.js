@@ -9,6 +9,7 @@ import consulting from '../public/consulting.png'
 
 import ui1 from '../public/kirche.png'
 import ui4 from '../public/computerco.png'
+import ui7 from '../public/animation.png'
 import {useState} from 'react';
 
 export default function Home() {
@@ -112,6 +113,9 @@ export default function Home() {
           </div>
           <div>
             <a href="https://computerco.netlify.app/" target="_blank"><Image src={ui4} className="rounded-lg object-cover h-80"/></a>
+          </div>
+          <div>
+            <a href="https://abigaelkirwa.github.io/Animation-Website/" target="_blank"><Image src={ui7} className="rounded-lg object-cover h-80"/></a>
           </div>
         </div>
         
