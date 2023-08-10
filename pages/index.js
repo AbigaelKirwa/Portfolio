@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import{BsFillMoonStarsFill} from 'react-icons/bs';
-import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
+import{AiFillGithub, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
 import Image from "next/image";
 import portfolio from '../public/portfolio.png';
 import design from '../public/design.png'
@@ -40,7 +40,7 @@ export default function Home() {
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-            <a href="https://twitter.com/KirwaAbigael" target="_blank"><AiFillTwitterCircle /></a>
+            <a href="https://github.com/AbigaelKirwa" target="_blank"><AiFillGithub /></a>
             <a href="https://www.linkedin.com/in/abigael-kirwa-40647219b/" target="_blank"><AiFillLinkedin /></a>
             <a href="https://www.youtube.com/channel/UCmnRQ3OAWO-CsJBaILn1d7w" target="_blank"><AiFillYoutube /></a>
           </div>
