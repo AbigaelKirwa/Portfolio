@@ -2,14 +2,15 @@ import Head from 'next/head';
 import{BsFillMoonStarsFill} from 'react-icons/bs';
 import{AiFillGithub, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
 import Image from "next/image";
-import portfolio from '../public/portfolio.png';
-import design from '../public/design.png'
-import code from '../public/code.png'
-import consulting from '../public/consulting.png'
+import portfolio from '../public/images/portfolio.png';
+import design from '../public/images/design.png'
+import code from '../public/images/code.png'
+import consulting from '../public/images/consulting.png'
 
-import ui1 from '../public/kirche.png'
-import ui4 from '../public/computerco.png'
-import ui7 from '../public/animation.png'
+import ui1 from '../public/images/kirche.png'
+import ui4 from '../public/images/computerco.png'
+import ui7 from '../public/images/animation.png'
+import ui8 from '../public/images/afyaweb2.png'
 import {useState} from 'react';
 
 export default function Home() {
@@ -116,6 +117,9 @@ export default function Home() {
           </div>
           <div>
             <a href="https://abigaelkirwa.github.io/Animation-Website/" target="_blank"><Image src={ui7} className="rounded-lg object-cover h-80"/></a>
+          </div>
+           <div>
+            <a href="https://afyaweb.netlify.app/" target="_blank"><Image src={ui8} className="rounded-lg object-cover h-80"/></a>
           </div>
         </div>
         
