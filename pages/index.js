@@ -2,7 +2,7 @@ import Head from 'next/head';
 import{BsFillMoonStarsFill} from 'react-icons/bs';
 import{AiFillGithub, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
 import Image from "next/image";
-import portfolio from '../public/images/portfolio.png';
+import portfolio from '../public/images/portfolio2.png';
 import design from '../public/images/design.png'
 import code from '../public/images/code.png'
 import consulting from '../public/images/consulting.png'
@@ -45,14 +45,14 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/abigael-kirwa-40647219b/" target="_blank"><AiFillLinkedin /></a>
             <a href="https://www.youtube.com/channel/UCmnRQ3OAWO-CsJBaILn1d7w" target="_blank"><AiFillYoutube /></a>
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 to-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-            <Image src={portfolio} layout="fill" objectFit="cover"/>
+          <div className='flex items-center justify-center mt-10'>
+            <Image src={portfolio} className='w-1/3 max-md:w-full'/>
           </div>
         </section>
         <section>
           <div>
-            <h3 className="mt-20 text-3xl py-1 dark:text-white">Services I offer</h3>
-            <p className='text-md py-2 leading-8 text-gray-800 dark:text-teal-200'>
+            <h3 className="mt-20 text-3xl py-1 dark:text-white max-md:mt-10">Services I offer</h3>
+            <p className='text-md py-2 text-justify leading-8 text-gray-800 dark:text-teal-200'>
               I am available for both short and long term projects requiring <span className='text-teal-500 dark:text-white'>design </span> 
               or <span className='text-teal-500 dark:text-white'> development</span>. I am also interested in development
               <span className='text-teal-500 dark:text-white'> internship</span> opportunities. Please do reach out to me through my email <span className='text-teal-500 dark:text-white'><a href="mailto:">abigael.kirwa@strathmore.edu</a></span> if interested.
@@ -110,16 +110,16 @@ export default function Home() {
         </div>
         <div className='grid grid-cols-2 gap-10 py-10 max-md:grid-cols-1'> 
           <div>
-          <a href="https://kirche.netlify.app/" target="_blank"><Image src={ui1} className="rounded-lg object-center h-80"/></a>
+          <a href="https://kirche.netlify.app/" target="_blank"><Image src={ui1} className="rounded-lg object-center h-80 max-[390px]:h-40"/></a>
           </div>
           <div>
-            <a href="https://computerco.netlify.app/" target="_blank"><Image src={ui4} className="rounded-lg object-cover h-80"/></a>
+            <a href="https://computerco.netlify.app/" target="_blank"><Image src={ui4} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
           </div>
           <div>
-            <a href="https://abigaelkirwa.github.io/Animation-Website/" target="_blank"><Image src={ui7} className="rounded-lg object-cover h-80"/></a>
+            <a href="https://abigaelkirwa.github.io/Animation-Website/" target="_blank"><Image src={ui7} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
           </div>
            <div>
-            <a href="https://afyaweb.netlify.app/" target="_blank"><Image src={ui8} className="rounded-lg object-cover h-80"/></a>
+            <a href="https://afyaweb.netlify.app/" target="_blank"><Image src={ui8} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
           </div>
         </div>
         
