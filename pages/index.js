@@ -46,7 +46,7 @@ export default function Home() {
             <a href="https://www.youtube.com/channel/UCmnRQ3OAWO-CsJBaILn1d7w" target="_blank"><AiFillYoutube /></a>
           </div>
           <div className='flex items-center justify-center mt-10'>
-            <Image src={portfolio} className='w-1/3 max-[1501px]:w-2/3 max-[950px]:w-full max-sm:w-xl'/>
+            <Image src={portfolio} className='w-1/3 max-[950px]:w-full max-sm:w-xl'/>
           </div>
         </section>
         <section>
