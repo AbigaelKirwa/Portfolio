@@ -46,12 +46,12 @@ export default function Home() {
             <a href="https://www.youtube.com/channel/UCmnRQ3OAWO-CsJBaILn1d7w" target="_blank"><AiFillYoutube /></a>
           </div>
           <div className='flex items-center justify-center mt-10'>
-            <Image src={portfolio} className='w-1/3 max-md:w-full'/>
+            <Image src={portfolio} className='w-1/3 max-[1501px]:w-2/3 max-[950px]:w-full max-sm:w-xl'/>
           </div>
         </section>
         <section>
           <div>
-            <h3 className="mt-20 text-3xl py-1 dark:text-white max-md:mt-10">Services I offer</h3>
+            <h3 className="mt-10 text-3xl py-1 dark:text-white max-md:mt-3">Services I offer</h3>
             <p className='text-md py-2 text-justify leading-8 text-gray-800 dark:text-teal-200'>
               I am available for both short and long term projects requiring <span className='text-teal-500 dark:text-white'>design </span> 
               or <span className='text-teal-500 dark:text-white'> development</span>. I am also interested in development
