@@ -11,6 +11,7 @@ import ui1 from '../public/images/kirche4.png'
 import ui4 from '../public/images/computerco.png'
 import ui7 from '../public/images/animation.png'
 import ui8 from '../public/images/afyaweb2.png'
+import ui9 from '../public/images/yoga5.png'
 import {useState} from 'react';
 
 export default function Home() {
@@ -62,7 +63,7 @@ export default function Home() {
           <div className='grid grid-cols-3 gap-7 max-lg:grid-cols-2 max-lg:gap-10  max-md:grid-cols-2 max-md:gap-5 max-sm:grid-cols-1'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
               <div className='flex flex-col justify-center items-center' width="100%"><Image src={design}  width={100} height={100} /></div>
-              <h3 className='text-lg font-medium pt-8 pb-2 font-bold text-cyan-800'>Beautiful Designs</h3>
+              <h3 className='text-lg pt-8 pb-2 font-bold text-cyan-800'>Beautiful Designs</h3>
               <p className='py-2'>Creating beautiful designs for your website</p>
               <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
               <div className='grid grid-cols-2 gap-2'>
@@ -75,7 +76,7 @@ export default function Home() {
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
             <div className='flex flex-col justify-center items-center' width="100%"><Image src={code}  width={100} height={100}/></div>
-              <h3 className='text-lg font-medium pt-8 pb-2 font-bold text-cyan-800'>Front End</h3>
+              <h3 className='text-lg pt-8 pb-2 font-bold text-cyan-800'>Front End</h3>
               <p className='py-2'>Transforming design into functional code</p>
               <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
               <div className='grid grid-cols-2 gap-2'>
@@ -88,7 +89,7 @@ export default function Home() {
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100'>
             <div className='flex flex-col justify-center items-center' width={'100%'}><Image src={consulting}  width={100} height={100}/></div>
-              <h3 className='text-lg font-medium pt-8 pb-2 font-bold text-cyan-800'>Back End</h3>
+              <h3 className='text-lg  pt-8 pb-2 font-bold text-cyan-800'>Back End</h3>
               <p className='py-2'>Working with databases and API's to handle data</p>
               <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
               <div className='grid grid-cols-2 gap-2'>
@@ -120,6 +121,9 @@ export default function Home() {
           </div>
            <div>
             <a href="https://afyaweb.netlify.app/" target="_blank"><Image src={ui8} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
+          </div>
+          <div>
+            <a href="https://yoga-tranquil.netlify.app/" target="_blank"><Image src={ui9} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
           </div>
         </div>
         
