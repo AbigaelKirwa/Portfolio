@@ -7,7 +7,7 @@ import design from '../public/images/design.png'
 import code from '../public/images/code.png'
 import consulting from '../public/images/consulting.png'
 
-import ui1 from '../public/images/kirche4.png'
+import ui1 from '../public/images/kirche9.png'
 import ui4 from '../public/images/computerco.png'
 import ui7 from '../public/images/animation.png'
 import ui8 from '../public/images/afyaweb2.png'
@@ -111,7 +111,7 @@ export default function Home() {
         </div>
         <div className='grid grid-cols-2 gap-10 py-10 max-md:grid-cols-1'> 
           <div>
-          <a href="https://kirche.netlify.app/" target="_blank"><Image src={ui1} className="rounded-lg object-center h-80 max-[390px]:h-40"/></a>
+          <a href="https://kirche.netlify.app/" target="_blank"><Image src={ui1} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
           </div>
           <div>
             <a href="https://computerco.netlify.app/" target="_blank"><Image src={ui4} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
