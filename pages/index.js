@@ -10,7 +10,7 @@ import consulting from '../public/images/consulting.png'
 import ui1 from '../public/images/kirche9.png'
 import ui2 from '../public/images/kijourney.png'
 import ui4 from '../public/images/computerco.png'
-import ui7 from '../public/images/animation.png'
+import ui7 from '../public/images/animation4.png'
 import ui8 from '../public/images/afyaweb2.png'
 import ui9 from '../public/images/yoga5.png'
 import {useState} from 'react';
@@ -126,7 +126,7 @@ export default function Home() {
             <a href="https://abigaelkirwa.github.io/Animation-Website/" target="_blank"><Image src={ui7} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
           </div>
            <div>
-            <a href="https://afyaweb.netlify.app/" target="_blank"><Image src={ui8} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
+            <a href="https://afyaweb.netlify.app/" target="_blank"><Image src={ui8} className="rounded-lg object-fill h-full max-[390px]:h-48"/></a>
           </div>
           <div>
             <a href="https://yoga-tranquil.netlify.app/" target="_blank"><Image src={ui9} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
