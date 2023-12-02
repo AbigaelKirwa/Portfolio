@@ -2,12 +2,13 @@ import Head from 'next/head';
 import{BsFillMoonStarsFill} from 'react-icons/bs';
 import{AiFillGithub, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
 import Image from "next/image";
-import portfolio from '../public/images/portfolio2.png';
+import portfolio from '../public/images/portfolio.png';
 import design from '../public/images/design.png'
 import code from '../public/images/code.png'
 import consulting from '../public/images/consulting.png'
 
 import ui1 from '../public/images/kirche9.png'
+import ui2 from '../public/images/kijourney.png'
 import ui4 from '../public/images/computerco.png'
 import ui7 from '../public/images/animation.png'
 import ui8 from '../public/images/afyaweb2.png'
@@ -24,8 +25,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-white px-10 md:px-20, lg:px-20 dark:bg-gray-900">
-        <section className="min-h-screen">
+      <main className="bg-white px-10 max-sm:px-10 md:px-20, lg:px-20 dark:bg-gray-900">
+        <section>
           <nav className="py-10 mb-12 flex justify-between">
             <h1 className='text-xl font-burtons dark:text-white'>developed by aby</h1>
             <ul className='flex items-center'>
@@ -46,8 +47,10 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/abigael-kirwa-40647219b/" target="_blank"><AiFillLinkedin /></a>
             <a href="https://www.youtube.com/channel/UCmnRQ3OAWO-CsJBaILn1d7w" target="_blank"><AiFillYoutube /></a>
           </div>
-          <div className='flex items-center justify-center mt-10'>
-            <Image src={portfolio} className='w-1/3 max-[950px]:w-full max-sm:w-xl'/>
+          <div className='flex justify-center'>
+            <div className='w-80 h-80 flex items-center justify-center mt-10 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500'>
+              <Image src={portfolio} className='w-full'/>
+            </div>
           </div>
         </section>
         <section>
@@ -111,19 +114,22 @@ export default function Home() {
         </div>
         <div className='grid grid-cols-2 gap-10 py-10 max-md:grid-cols-1'> 
           <div>
-          <a href="https://kirche.netlify.app/" target="_blank"><Image src={ui1} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
+          <a href="https://ki-journey.com/" target="_blank"><Image src={ui2} className="rounded-lg object-fill h-full max-[390px]:h-48"/></a>
           </div>
           <div>
-            <a href="https://computerco.netlify.app/" target="_blank"><Image src={ui4} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
+          <a href="https://kirche.netlify.app/" target="_blank"><Image src={ui1} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
           </div>
           <div>
-            <a href="https://abigaelkirwa.github.io/Animation-Website/" target="_blank"><Image src={ui7} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
+            <a href="https://computerco.netlify.app/" target="_blank"><Image src={ui4} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
+          </div>
+          <div>
+            <a href="https://abigaelkirwa.github.io/Animation-Website/" target="_blank"><Image src={ui7} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
           </div>
            <div>
-            <a href="https://afyaweb.netlify.app/" target="_blank"><Image src={ui8} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
+            <a href="https://afyaweb.netlify.app/" target="_blank"><Image src={ui8} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
           </div>
           <div>
-            <a href="https://yoga-tranquil.netlify.app/" target="_blank"><Image src={ui9} className="rounded-lg object-cover h-80 max-[390px]:h-40"/></a>
+            <a href="https://yoga-tranquil.netlify.app/" target="_blank"><Image src={ui9} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
           </div>
         </div>
         
