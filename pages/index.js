@@ -113,9 +113,9 @@ export default function Home() {
           </p>
         </div>
         <div className='grid grid-cols-2 gap-10 py-10 max-md:grid-cols-1'> 
-          <div>
+          {/* <div>
           <a href="https://kijourney.netlify.app/" target="_blank"><Image src={ui2} className="rounded-lg object-fill h-full max-[390px]:h-48"/></a>
-          </div>
+          </div> */}
           <div>
           <a href="https://kirche.netlify.app/" target="_blank"><Image src={ui1} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
           </div>
