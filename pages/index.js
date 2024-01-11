@@ -39,7 +39,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Abigael Kirwa</h2>
             <h3 className='text-2xl py-2 md:text-3xl text-white'>Developer and Designer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-teal-200'> I am a computer science student soon graduating in 2024. I enjoy creating designs and developing them. I am currently a MERN (MongoDB, ExpressJs, ReactJs, NodeJs) stack developer.
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-teal-200'> I am a software developer that enjoys creating designs and developing them. My Tech stack is MERN (MongoDB, ExpressJs, ReactJs, NodeJs) or PHP.
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
