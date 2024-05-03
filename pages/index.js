@@ -132,9 +132,9 @@ export default function Home() {
            <div>
             <a href="https://afyaweb.netlify.app/" target="_blank"><Image src={ui8} className="rounded-lg object-fill h-full max-[390px]:h-48"/></a>
           </div>
-          <div>
+          {/* <div>
             <a href="https://yoga-tranquil.netlify.app/" target="_blank"><Image src={ui9} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
-          </div>
+          </div> */}
         </div>
         
   
