@@ -118,7 +118,7 @@ export default function Home() {
           <a href="https://kijourney.netlify.app/" target="_blank"><Image src={ui2} className="rounded-lg object-fill h-full max-[390px]:h-48"/></a>
           </div> */}
           <div>
-            <a href="https://oka-bakery.netlify.app/" target="_blank"><Image src={ui3} className="rounded-lg object-cover h-full border-2 max-[390px]:h-48"/></a>
+            <a href="https://oka-bakery.netlify.app/" target="_blank"><Image src={ui3} className="rounded-lg object-cover h-full border-2 shadow-lg shadow-cyan-600/50 max-[390px]:h-48"/></a>
           </div>
           <div>
           <a href="https://kirche.netlify.app/" target="_blank"><Image src={ui1} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
@@ -126,9 +126,9 @@ export default function Home() {
           {/* <div>
             <a href="https://computerco.netlify.app/" target="_blank"><Image src={ui4} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
           </div> */}
-          <div>
+          {/* <div>
             <a href="https://abigaelkirwa.github.io/Animation-Website/" target="_blank"><Image src={ui7} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
-          </div>
+          </div> */}
            <div>
             <a href="https://afyaweb.netlify.app/" target="_blank"><Image src={ui8} className="rounded-lg object-fill h-full max-[390px]:h-48"/></a>
           </div>
