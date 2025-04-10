@@ -40,7 +40,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Abigael Kirwa</h2>
             <h3 className='text-2xl py-2 md:text-3xl text-white'>Developer and Designer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-teal-200'> I am a software developer that enjoys creating designs and developing them. My Tech stack is MERN (MongoDB, ExpressJs, ReactJs, NodeJs) or PHP.
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-teal-200'> I am a software developer that enjoys creating designs and developing them. My Tech stack is MERN (MongoDB, ExpressJs, ReactJs, NodeJs), Next Js, React Js, and TypeScript.
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
@@ -85,9 +85,9 @@ export default function Home() {
               <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
               <div className='grid grid-cols-2 gap-2'>
                 <p className='text-gray-800 py-1'>ReactJs</p>
-                <p className='text-gray-800 py-1'>PHP</p>
-                <p className='text-gray-800 py-1'>Django</p>
+                <p className='text-gray-800 py-1'>NodeJs</p>
                 <p className='text-gray-800 py-1'>NextJs</p>
+                <p className='text-gray-800 py-1'>PHP</p>
               </div>
             </div>
 
@@ -98,8 +98,8 @@ export default function Home() {
               <h4 className='py-4 text-teal-600'>Design tools that I use</h4>
               <div className='grid grid-cols-2 gap-2'>
                 <p className='text-gray-800 py-1'>MongoDB</p>
-                <p className='text-gray-800 py-1'>Postman API</p>
-                <p className='text-gray-800 py-1'>Insomnia API</p>
+                <p className='text-gray-800 py-1'>Supabase</p>
+                <p className='text-gray-800 py-1'>Firebase</p>
                 <p className='text-gray-800 py-1'>mySQL</p>
               </div>
             </div>
@@ -136,8 +136,6 @@ export default function Home() {
             <a href="https://yoga-tranquil.netlify.app/" target="_blank"><Image src={ui9} className="rounded-lg object-cover h-full max-[390px]:h-48"/></a>
           </div> */}
         </div>
-        
-  
       </main>
     </div>
   );
